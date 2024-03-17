@@ -89,10 +89,32 @@ body{
     color: aliceblue;
     justify-content: center;
     flex-direction: column;
-    height: 85vh;
+    height: 20vh;
     color: rgb(0, 247, 255);
     font-family:
-    font-size:35px;
+    font-size:1px;
    }
   
+   .video{
+    justify-content: center;
+    display:flex;
+    text-align:center;
+    flex-direction:row;
+    height:vh;
+    align-items:center;
+    gap:20px;
+    margin: 20;
+   }
+   .banner{
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    top:20px;
+    flex-direcction:center;
+    padding:40px;
+    border:20px solid black;
+   }
+   
+   
+    
    
