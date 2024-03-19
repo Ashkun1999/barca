@@ -91,8 +91,8 @@ body{
     flex-direction: column;
     height: 20vh;
     color: rgb(0, 247, 255);
-    font-family:
-    font-size:1px;
+    font-family:"Great Vibes", cursive;
+    font-size:30px;
    }
   
    .video{
@@ -109,41 +109,74 @@ body{
     align-items:center;
     display:flex;
     top:20px;
-    flex-direcction:center;
-    padding:40px;
-    border:20px solid black;
-    animation:zoom 2s infinite alternate;
-   }
-   @keyframes zoom{
-    from{
-        transform:scale(1);
-        }
-   }
-   to{
-    transform:scale(1.1);
+    flex-direction:center;
+    padding:4px;
 
+    animation:glow 2s infinite alternate;
+    border-radius: 10px;
    }
+   .banner img:hover{
+     transform: scale(1.2);
+    transform: transform 0.10 ease;
+    z-index:7;
+    transition: 5s;
+    box-shadow: 0 0 20px 2px rgba( 0, 0, 0, -1);
+}
+   
+
+
+   
+  
    .vid1{
     color:gold;
     margin-left:100px;
+    border:5px solid black;
+    border-radius:10px;
+    animation:glow 2s infinite alternate;
    }
    .vid2{
     color:gold;
+    border:5px solid black;
+    border-radius:10px;
+    animation:glow 2s infinite alternate;
     
    }
    .vid3{
     color:gold;
     margin-right:100px;
+    border:5px solid black;
+    border-radius:10px;
+    animation:glow 2s infinite alternate;
    }
     
    .footer{
+    margin-top:auto;
     color:whitesmoke;
     padding: 80px;
-    margin:40px;
+    margin:40px 10;
+    background-color: white;
+    display:flex;
+    flex-wrap:wrap;
+
   
    }
    .footer2{
     color: white;
     margin:118px;
+    display:flex;
+    flex-direction: column;
    }
+   .ficon{
+    align-items:center;
+    justify-content: center;
+    margin-top:100px;
+    display:flex;
+   }
+   .ficon2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+   }
+
   
