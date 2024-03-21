@@ -52,7 +52,7 @@ body{
  .cullers{
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align:center;
     color:goldenrod;
     display: flex;
  }   
