@@ -36,7 +36,7 @@ tr:nth-child(odd) {
 
    
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     table,thead,tbody,th,tr {
         display: block;
     }
