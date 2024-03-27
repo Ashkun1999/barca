@@ -34,6 +34,8 @@ tr:nth-child(odd) {
 
 
 
+
+
    
 
 @media screen and (max-width: 1000px) {
@@ -77,4 +79,35 @@ tr:nth-child(odd) {
     td:nth-of-type(4)::before{content:"DRAW";}
     td:nth-of-type(5)::before{content:"LOSE";}
     td:nth-of-type(6)::before{content:"POINTS";}
+}
+
+    
+.Logo {
+    font: size 5rem;
+    color: rgb(54, 190, 190);
+    text-decoration: none;
+    font-weight: 700;
+    height: 80px;
+    width: 80px;
+    animation: glow 2s infinite alternate;
+    border-radius: 12px;
+
+}
+.head-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color:purple;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.head-btn:hover {
+    background-color: goldenrod;
 }

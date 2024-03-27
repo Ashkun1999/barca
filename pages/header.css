@@ -74,14 +74,14 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    background-color: red;
+    background-color:purple;
     font-size: 16px;
     margin-bottom: 5px;
     color: #fff;
 }
 
 .head-btn:hover {
-    background-color: maroon;
+    background-color: goldenrod;
 }
 @media(max-width:1000px) {
     .header {
