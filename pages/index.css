@@ -157,6 +157,7 @@ body {
     margin: 118px;
     display: flex;
     flex-direction: column;
+
 }
 
 .ficon {
@@ -185,4 +186,15 @@ body {
     align-items: center;
     margin-top: 100px;
     gap: 30px;
+}
+footer{
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(50px);
+    padding:10px;
+}
+.mfooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
